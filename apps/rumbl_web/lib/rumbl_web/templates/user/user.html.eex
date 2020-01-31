@@ -1,0 +1,5 @@
+<%= if @show_title do %>
+    <h1>Showing user</h1>
+<% end %>
+
+<strong><%= first_name(@user) %></strong> (<%= @user.id %>)
